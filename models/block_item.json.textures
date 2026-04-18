@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "incomplete_soul_sand"
+      },
+      "name": "default"
+    }
+  }
+}
