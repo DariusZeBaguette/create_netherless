@@ -8,8 +8,8 @@
       "registry_name": "coal_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_netherless/models/item/coal_rod.json",
-          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java"
+          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java",
+          "src/main/resources/assets/create_netherless/models/item/coal_rod.json"
         ]
       }
     },
@@ -27,7 +27,7 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
@@ -61,18 +61,6 @@
       }
     },
     {
-      "name": "SoulSandFromSequencedAssembly",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "soul_sand_from_sequenced_assembly",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soul_sand_from_sequenced_assembly.json"
-        ]
-      }
-    },
-    {
       "name": "Ectoplasm",
       "type": "item",
       "compiles": true,
@@ -80,32 +68,8 @@
       "registry_name": "ectoplasm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_netherless/models/item/ectoplasm.json",
-          "src/main/java/fr/dariuszebaguette/netherless/item/EctoplasmItem.java"
-        ]
-      }
-    },
-    {
-      "name": "SoulTorchFromEctoplasm",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_torch_from_ectoplasm",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipe/soul_torch_from_ectoplasm.json"
-        ]
-      }
-    },
-    {
-      "name": "SoulTorchFromCharcoalEctoplasm",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_torch_from_charcoal_ectoplasm",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipe/soul_torch_from_charcoal_ectoplasm.json"
+          "src/main/java/fr/dariuszebaguette/netherless/item/EctoplasmItem.java",
+          "src/main/resources/assets/create_netherless/models/item/ectoplasm.json"
         ]
       }
     },
