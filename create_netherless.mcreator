@@ -8,8 +8,8 @@
       "registry_name": "coal_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_netherless/models/item/coal_rod.json",
-          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java"
+          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java",
+          "src/main/resources/assets/create_netherless/models/item/coal_rod.json"
         ]
       }
     },
@@ -27,7 +27,7 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
@@ -253,18 +253,6 @@
       }
     },
     {
-      "name": "NetherQuartzFromFlint",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_quartz_from_flint",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/nether_quartz_from_flint.json"
-        ]
-      }
-    },
-    {
       "name": "CryingObsidianByHaunting",
       "type": "recipe",
       "compiles": true,
@@ -273,6 +261,18 @@
       "metadata": {
         "files": [
           "src/main/resources/data/create_netherless/recipes/crying_obsidian_by_haunting.json"
+        ]
+      }
+    },
+    {
+      "name": "CryingObsidianFromHaunting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crying_obsidian_from_haunting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/crying_obsidian_from_haunting.json"
         ]
       }
     },
@@ -289,15 +289,26 @@
       }
     },
     {
-      "name": "IncompleteNetheriteUpgradeSmithingTemplate",
-      "type": "item",
+      "name": "GhastTearFromSpouting",
+      "type": "recipe",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "incomplete_netherite_upgrade_smithing_template",
+      "registry_name": "ghast_tear_from_spouting",
       "metadata": {
         "files": [
-          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteNetheriteUpgradeSmithingTemplateItem.java",
-          "src/main/resources/assets/create_netherless/models/item/incomplete_netherite_upgrade_smithing_template.json"
+          "src/main/resources/data/create_netherless/recipes/ghast_tear_from_spouting.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherQuartzFromFlint",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_quartz_from_flint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipes/nether_quartz_from_flint.json"
         ]
       }
     },
@@ -314,28 +325,22 @@
       }
     },
     {
-      "name": "GhastTearFromSpouting",
-      "type": "recipe",
+      "name": "IncompleteNetheriteUpgradeSmithingTemplate",
+      "type": "item",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "ghast_tear_from_spouting",
+      "registry_name": "incomplete_netherite_upgrade_smithing_template",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_netherless/recipes/ghast_tear_from_spouting.json"
+          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteNetheriteUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/create_netherless/models/item/incomplete_netherite_upgrade_smithing_template.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {
-    "ITEMS:forge:rods/coal": [
-      "CUSTOM:CoalRod"
-    ],
-    "ITEMS:forge:rods": [
-      "CUSTOM:CoalRod"
-    ]
-  },
+  "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
     "en_us": {
