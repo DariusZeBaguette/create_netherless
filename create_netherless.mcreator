@@ -361,7 +361,9 @@
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "create"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
