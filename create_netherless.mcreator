@@ -27,7 +27,7 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
@@ -265,18 +265,6 @@
       }
     },
     {
-      "name": "CryingObsidianFromHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "crying_obsidian_from_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipe/crying_obsidian_from_haunting.json"
-        ]
-      }
-    },
-    {
       "name": "NetherWartFromDeploying",
       "type": "recipe",
       "compiles": true,
@@ -334,6 +322,18 @@
         "files": [
           "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteNetheriteUpgradeSmithingTemplateItem.java",
           "src/main/resources/assets/create_netherless/models/item/incomplete_netherite_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "CryingObsidianFromHaunting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crying_obsidian_from_haunting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/crying_obsidian_from_haunting.json"
         ]
       }
     }
