@@ -27,7 +27,7 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
