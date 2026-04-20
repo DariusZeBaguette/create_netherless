@@ -1,11 +1,14 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "create_netherless:coal_rod"
+    "tag": "c:rods/coal"
   },
-  "transitionalItem": {
-    "item": "create_netherless:incomplete_blaze_rod"
-  },
+  "loops": 4,
+  "results": [
+    {
+      "id": "minecraft:blaze_rod"
+    }
+  ],
   "sequence": [
     {
       "type": "create:filling",
@@ -14,14 +17,14 @@
           "item": "create_netherless:incomplete_blaze_rod"
         },
         {
-          "fluid": "minecraft:lava",
-          "nbt": {},
-          "amount": 250
+          "type": "fluid_stack",
+          "amount": 500,
+          "fluid": "minecraft:lava"
         }
       ],
       "results": [
         {
-          "item": "create_netherless:incomplete_blaze_rod"
+          "id": "create_netherless:incomplete_blaze_rod"
         }
       ]
     },
@@ -32,14 +35,14 @@
           "item": "create_netherless:incomplete_blaze_rod"
         },
         {
-          "fluid": "minecraft:lava",
-          "nbt": {},
-          "amount": 250
+          "type": "fluid_stack",
+          "amount": 500,
+          "fluid": "minecraft:lava"
         }
       ],
       "results": [
         {
-          "item": "create_netherless:incomplete_blaze_rod"
+          "id": "create_netherless:incomplete_blaze_rod"
         }
       ]
     },
@@ -52,15 +55,12 @@
       ],
       "results": [
         {
-          "item": "create_netherless:incomplete_blaze_rod"
+          "id": "create_netherless:incomplete_blaze_rod"
         }
       ]
     }
   ],
-  "results": [
-    {
-      "item": "minecraft:blaze_rod"
-    }
-  ],
-  "loops": 4
+  "transitional_item": {
+    "id": "create_netherless:incomplete_blaze_rod"
+  }
 }

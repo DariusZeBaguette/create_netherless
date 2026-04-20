@@ -8,14 +8,14 @@
       "item": "minecraft:soul_soil"
     },
     {
-      "fluid": "minecraft:lava",
-      "amount": 250
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "minecraft:lava"
     }
   ],
   "results": [
     {
-      "item": "minecraft:basalt"
+      "id": "minecraft:basalt"
     }
-  ],
-  "heatRequirement": "heated"
+  ]
 }

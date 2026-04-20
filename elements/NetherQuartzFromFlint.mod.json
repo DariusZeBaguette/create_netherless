@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.GILDED_BLACKSTONE"
+        "value": "Blocks.WAXED_OXIDIZED_CUT_COPPER_STAIRS"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.STRIPPED_BIRCH_LOG"
+      "value": "Blocks.STRIPPED_DARK_OAK_LOG"
     },
-    "name": "glowstone_from_haunting",
+    "name": "nether_quartz_from_flint",
     "namespace": "mod"
   }
 }

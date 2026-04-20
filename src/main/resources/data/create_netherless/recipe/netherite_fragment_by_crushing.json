@@ -5,17 +5,15 @@
       "item": "minecraft:blackstone"
     }
   ],
+  "processingTime": 250,
   "results": [
     {
-      "item": "coal",
-      "count": 1,
+      "id": "minecraft:coal",
       "chance": 0.5
     },
     {
-      "item": "create_netherless:netherite_fragment",
-      "count": 1,
+      "id": "create_netherless:netherite_fragment",
       "chance": 0.01
     }
-  ],
-  "processingTime": 250
+  ]
 }

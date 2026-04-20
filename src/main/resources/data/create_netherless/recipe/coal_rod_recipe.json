@@ -2,12 +2,12 @@
   "type": "create:sandpaper_polishing",
   "ingredients": [
     {
-      "tag": "forge:storage_blocks/coal"
+      "tag": "c:storage_blocks/coal"
     }
   ],
   "results": [
     {
-      "item": "create_netherless:coal_rod"
+      "id": "create_netherless:coal_rod"
     }
   ]
 }

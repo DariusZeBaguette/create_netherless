@@ -5,14 +5,14 @@
       "item": "minecraft:blackstone"
     },
     {
-      "fluid": "minecraft:lava",
-      "nbt": {},
-      "amount": 500
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "minecraft:lava"
     }
   ],
   "results": [
     {
-      "item": "minecraft:magma_block"
+      "id": "minecraft:magma_block"
     }
   ]
 }

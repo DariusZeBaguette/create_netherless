@@ -74,30 +74,6 @@
       }
     },
     {
-      "name": "DeepslateFromCompacting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "deepslate_from_compacting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/deepslate_from_compacting.json"
-        ]
-      }
-    },
-    {
-      "name": "DeepSlateFromCompactingCharcoal",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "deep_slate_from_compacting_charcoal",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/deep_slate_from_compacting_charcoal.json"
-        ]
-      }
-    },
-    {
       "name": "MagmaFromSpouting",
       "type": "recipe",
       "compiles": true,
@@ -170,42 +146,6 @@
       }
     },
     {
-      "name": "EnderPearlByHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "ender_pearl_by_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/ender_pearl_by_haunting.json"
-        ]
-      }
-    },
-    {
-      "name": "NetherQuartzFromHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_quartz_from_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/nether_quartz_from_haunting.json"
-        ]
-      }
-    },
-    {
-      "name": "GlowstoneFromHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "glowstone_from_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/glowstone_from_haunting.json"
-        ]
-      }
-    },
-    {
       "name": "CreateNetherlessTab",
       "type": "tab",
       "compiles": true,
@@ -244,7 +184,7 @@
       "name": "NetheriteFragmentToAncientDebris",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "netherite_fragment_to_ancient_debris",
       "metadata": {
         "files": [
@@ -277,18 +217,6 @@
       }
     },
     {
-      "name": "GildedBlackstoneFromDeploying",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "gilded_blackstone_from_deploying",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/gilded_blackstone_from_deploying.json"
-        ]
-      }
-    },
-    {
       "name": "BasaltByMixing",
       "type": "recipe",
       "compiles": true,
@@ -308,19 +236,7 @@
       "registry_name": "blaze_burner_recipe_from_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_netherless/recipes/blaze_burner_recipe_from_craft.json"
-        ]
-      }
-    },
-    {
-      "name": "SoulsandByDeploying",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "soulsand_by_deploying",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soulsand_by_deploying.json"
+          "src/main/resources/data/create_netherless/recipe/blaze_burner_recipe_from_craft.json"
         ]
       }
     },
@@ -337,33 +253,28 @@
       }
     },
     {
-      "name": "WarpedNylliumByManualApplication",
+      "name": "NetherQuartzFromFlint",
       "type": "recipe",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "warped_nyllium_by_manual_application",
+      "registry_name": "nether_quartz_from_flint",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_netherless/recipes/warped_nyllium_by_manual_application.json"
-        ]
-      }
-    },
-    {
-      "name": "CrimsonNylliumByManualApplication",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "crimson_nyllium_by_manual_application",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/crimson_nyllium_by_manual_application.json"
+          "src/main/resources/data/create_netherless/recipe/nether_quartz_from_flint.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:c:rods": [
+      "CUSTOM:CoalRod"
+    ],
+    "ITEMS:c:rods/coal": [
+      "CUSTOM:CoalRod"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
