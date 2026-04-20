@@ -9,7 +9,7 @@
   "results": [
     {
       "id": "minecraft:coal",
-      "chance": 0.5
+      "chance": 0.1
     },
     {
       "id": "create_netherless:netherite_fragment",

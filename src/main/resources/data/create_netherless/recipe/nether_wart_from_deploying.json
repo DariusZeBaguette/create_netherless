@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "tag": "c:tools/shear"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:nether_wart"
+    }
+  ]
+}

@@ -263,6 +263,67 @@
           "src/main/resources/data/create_netherless/recipe/nether_quartz_from_flint.json"
         ]
       }
+    },
+    {
+      "name": "CryingObsidianFromHaunting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crying_obsidian_from_haunting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/crying_obsidian_from_haunting.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherWartFromDeploying",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_wart_from_deploying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/nether_wart_from_deploying.json"
+        ]
+      }
+    },
+    {
+      "name": "IncompleteNetheriteUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incomplete_netherite_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/create_netherless/models/item/incomplete_netherite_upgrade_smithing_template.json",
+          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteNetheriteUpgradeSmithingTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeSmithingTemplateSequencedAssembly",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_upgrade_smithing_template_sequenced_assembly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/netherite_upgrade_smithing_template_sequenced_assembly.json"
+        ]
+      }
+    },
+    {
+      "name": "GhastTearFromSpouting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ghast_tear_from_spouting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/ghast_tear_from_spouting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -279,18 +340,12 @@
   "language_map": {
     "en_us": {
       "item_group.create_netherless.create_netherless_tab": "Create: Netherless",
-      "item.create_netherles.ectoplasm": "Ectoplasm",
-      "item_group.create_netherles.create_netherless_tab": "Create: Netherless",
-      "item.create_netherles.coal_rod": "Coal Rod",
       "itemGroup.tabcreate_netherless_tab": "Create: Netherless",
       "item.create_netherless.netherite_fragment": "Netherite Fragment",
       "item.create_netherless.incomplete_blaze_rod": "Incomplete Blaze Rod",
-      "item.create_netherles.incomplete_blaze_rod": "Incomplete Blaze Rod",
       "item.create_netherless.coal_rod": "Coal Rod",
-      "item.create_netherles.netherite_fragment": "Netherite Fragment",
-      "item.create_netherless.ectoplasm.description_0": "§7Not implemented yet",
       "item.create_netherless.ectoplasm": "Ectoplasm",
-      "item.create_netherles.ectoplasm.description_0": "§7Not implemented yet"
+      "item.create_netherless.incomplete_netherite_upgrade_smithing_template": "Incomplete Smithing Template"
     }
   },
   "foldersRoot": {

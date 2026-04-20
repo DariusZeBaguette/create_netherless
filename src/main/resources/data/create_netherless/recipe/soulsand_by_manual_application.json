@@ -2,7 +2,7 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "tag": "minecraft:sand"
     },
     {
       "item": "minecraft:bone_block"
