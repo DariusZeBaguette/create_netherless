@@ -8,8 +8,8 @@
       "registry_name": "coal_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_netherless/models/item/coal_rod.json",
-          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java"
+          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java",
+          "src/main/resources/assets/create_netherless/models/item/coal_rod.json"
         ]
       }
     },
@@ -27,7 +27,7 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
@@ -261,6 +261,18 @@
       "metadata": {
         "files": [
           "src/main/resources/data/create_netherless/recipes/crying_obsidian_by_haunting.json"
+        ]
+      }
+    },
+    {
+      "name": "CryingObsidianFromHaunting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crying_obsidian_from_haunting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipe/crying_obsidian_from_haunting.json"
         ]
       }
     },
