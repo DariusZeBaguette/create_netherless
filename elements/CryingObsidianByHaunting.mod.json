@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.GILDED_BLACKSTONE"
+        "value": "Blocks.ANCIENT_DEBRIS"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.STRIPPED_BIRCH_LOG"
+      "value": "Blocks.STRIPPED_WARPED_HYPHAE"
     },
-    "name": "glowstone_from_haunting",
+    "name": "crying_obsidian_by_haunting",
     "namespace": "mod"
   }
 }

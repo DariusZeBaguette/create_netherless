@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "loops": 8,
+  "results": [
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        },
+        {
+          "tag": "forge:gems/diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        },
+        {
+          "item": "create_netherless:netherite_fragment"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        },
+        {
+          "tag": "forge:gems/diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_netherless:incomplete_netherite_upgrade_smithing_template"
+  }
+}

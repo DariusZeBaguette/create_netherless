@@ -28,6 +28,18 @@ description="Adds recipes for nether ressources thanks to the Create mod!"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.create_netherless]]
+    modId="create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.create_netherless]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

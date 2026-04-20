@@ -2,12 +2,12 @@
   "type": "create:haunting",
   "ingredients": [
     {
-      "item": "minecraft:amethyst_shard"
+      "item": "minecraft:obsidian"
     }
   ],
   "results": [
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:crying_obsidian"
     }
   ]
 }

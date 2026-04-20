@@ -1,21 +1,43 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
-  ],
-  "key": {
-    "a": {
+  "type": "create:compacting",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
       "item": "create_netherless:netherite_fragment"
     },
-    "b": {
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
+      "item": "create_netherless:netherite_fragment"
+    },
+    {
       "item": "minecraft:netherrack"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 250
     }
-  },
-  "result": {
-    "item": "minecraft:ancient_debris",
-    "count": 1
-  }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ]
 }

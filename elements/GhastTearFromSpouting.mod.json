@@ -12,10 +12,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Blocks.EMERALD_BLOCK"
       },
       {
-        "value": "Blocks.GILDED_BLACKSTONE"
+        "value": ""
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.STRIPPED_BIRCH_LOG"
+      "value": "Blocks.STRIPPED_ACACIA_WOOD"
     },
-    "name": "crimson_nyllium_by_manual_application",
+    "name": "ghast_tear_from_spouting",
     "namespace": "mod"
   }
 }

@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import fr.dariuszebaguette.netherless.item.NetheriteFragmentItem;
+import fr.dariuszebaguette.netherless.item.IncompleteNetheriteUpgradeSmithingTemplateItem;
 import fr.dariuszebaguette.netherless.item.IncompleteBlazeRodItem;
 import fr.dariuszebaguette.netherless.item.EctoplasmItem;
 import fr.dariuszebaguette.netherless.item.CoalRodItem;
@@ -22,6 +23,7 @@ public class CreateNetherlessModItems {
 	public static final RegistryObject<Item> INCOMPLETE_BLAZE_ROD = REGISTRY.register("incomplete_blaze_rod", () -> new IncompleteBlazeRodItem());
 	public static final RegistryObject<Item> ECTOPLASM = REGISTRY.register("ectoplasm", () -> new EctoplasmItem());
 	public static final RegistryObject<Item> NETHERITE_FRAGMENT = REGISTRY.register("netherite_fragment", () -> new NetheriteFragmentItem());
+	public static final RegistryObject<Item> INCOMPLETE_NETHERITE_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("incomplete_netherite_upgrade_smithing_template", () -> new IncompleteNetheriteUpgradeSmithingTemplateItem());
 	// Start of user code block custom items
 	// End of user code block custom items
 }

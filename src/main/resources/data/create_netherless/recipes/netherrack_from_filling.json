@@ -2,7 +2,7 @@
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "magma_block"
+      "item": "minecraft:magma_block"
     },
     {
       "fluid": "minecraft:water",
@@ -12,7 +12,7 @@
   ],
   "results": [
     {
-      "item": "netherrack"
+      "item": "minecraft:netherrack"
     }
   ]
 }

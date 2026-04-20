@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 
 import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
 
-public class IncompleteBlazeRodItem extends SequencedAssemblyItem {
-	public IncompleteBlazeRodItem() {
+public class IncompleteNetheriteUpgradeSmithingTemplateItem extends SequencedAssemblyItem {
+	public IncompleteNetheriteUpgradeSmithingTemplateItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

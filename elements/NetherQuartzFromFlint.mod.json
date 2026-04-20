@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.WEATHERED_CUT_COPPER_SLAB"
+        "value": "Blocks.ANCIENT_DEBRIS"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SMOOTH_SANDSTONE_STAIRS"
+      "value": "Blocks.STRIPPED_DARK_OAK_WOOD"
     },
-    "name": "deep_slate_from_compacting_charcoal",
+    "name": "nether_quartz_from_flint",
     "namespace": "mod"
   }
 }

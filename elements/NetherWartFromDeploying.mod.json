@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "Blocks.SOUL_SAND"
+        "value": "Blocks.SLIME_BLOCK"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.SAND#0"
+      "value": "Blocks.STRIPPED_JUNGLE_WOOD"
     },
-    "name": "soul_sand_from_sequenced_assembly",
+    "name": "nether_wart_from_deploying",
     "namespace": "mod"
   }
 }

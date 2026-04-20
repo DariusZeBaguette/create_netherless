@@ -8,8 +8,8 @@
       "registry_name": "coal_rod",
       "metadata": {
         "files": [
-          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java",
-          "src/main/resources/assets/create_netherless/models/item/coal_rod.json"
+          "src/main/resources/assets/create_netherless/models/item/coal_rod.json",
+          "src/main/java/fr/dariuszebaguette/netherless/item/CoalRodItem.java"
         ]
       }
     },
@@ -27,12 +27,12 @@
       "name": "IncompleteBlazeRod",
       "type": "item",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "incomplete_blaze_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/create_netherless/models/item/incomplete_blaze_rod.json",
-          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteBlazeRodItem.java"
+          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteBlazeRodItem.java",
+          "src/main/resources/assets/create_netherless/models/item/incomplete_blaze_rod.json"
         ]
       }
     },
@@ -61,18 +61,6 @@
       }
     },
     {
-      "name": "SoulSandFromSequencedAssembly",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "soul_sand_from_sequenced_assembly",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soul_sand_from_sequenced_assembly.json"
-        ]
-      }
-    },
-    {
       "name": "Ectoplasm",
       "type": "item",
       "compiles": true,
@@ -82,54 +70,6 @@
         "files": [
           "src/main/resources/assets/create_netherless/models/item/ectoplasm.json",
           "src/main/java/fr/dariuszebaguette/netherless/item/EctoplasmItem.java"
-        ]
-      }
-    },
-    {
-      "name": "SoulTorchFromEctoplasm",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_torch_from_ectoplasm",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soul_torch_from_ectoplasm.json"
-        ]
-      }
-    },
-    {
-      "name": "SoulTorchFromCharcoalEctoplasm",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_torch_from_charcoal_ectoplasm",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soul_torch_from_charcoal_ectoplasm.json"
-        ]
-      }
-    },
-    {
-      "name": "DeepslateFromCompacting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "deepslate_from_compacting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/deepslate_from_compacting.json"
-        ]
-      }
-    },
-    {
-      "name": "DeepSlateFromCompactingCharcoal",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "deep_slate_from_compacting_charcoal",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/deep_slate_from_compacting_charcoal.json"
         ]
       }
     },
@@ -206,42 +146,6 @@
       }
     },
     {
-      "name": "EnderPearlByHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "ender_pearl_by_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/ender_pearl_by_haunting.json"
-        ]
-      }
-    },
-    {
-      "name": "NetherQuartzFromHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "nether_quartz_from_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/nether_quartz_from_haunting.json"
-        ]
-      }
-    },
-    {
-      "name": "GlowstoneFromHaunting",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "glowstone_from_haunting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/glowstone_from_haunting.json"
-        ]
-      }
-    },
-    {
       "name": "CreateNetherlessTab",
       "type": "tab",
       "compiles": true,
@@ -280,7 +184,7 @@
       "name": "NetheriteFragmentToAncientDebris",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "netherite_fragment_to_ancient_debris",
       "metadata": {
         "files": [
@@ -313,18 +217,6 @@
       }
     },
     {
-      "name": "GildedBlackstoneFromDeploying",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "gilded_blackstone_from_deploying",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/gilded_blackstone_from_deploying.json"
-        ]
-      }
-    },
-    {
       "name": "BasaltByMixing",
       "type": "recipe",
       "compiles": true,
@@ -349,18 +241,6 @@
       }
     },
     {
-      "name": "SoulsandByDeploying",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "soulsand_by_deploying",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/create_netherless/recipes/soulsand_by_deploying.json"
-        ]
-      }
-    },
-    {
       "name": "SoulsandByManualApplication",
       "type": "recipe",
       "compiles": true,
@@ -373,42 +253,98 @@
       }
     },
     {
-      "name": "WarpedNylliumByManualApplication",
+      "name": "NetherQuartzFromFlint",
       "type": "recipe",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "warped_nyllium_by_manual_application",
+      "registry_name": "nether_quartz_from_flint",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_netherless/recipes/warped_nyllium_by_manual_application.json"
+          "src/main/resources/data/create_netherless/recipes/nether_quartz_from_flint.json"
         ]
       }
     },
     {
-      "name": "CrimsonNylliumByManualApplication",
+      "name": "CryingObsidianByHaunting",
       "type": "recipe",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "crimson_nyllium_by_manual_application",
+      "registry_name": "crying_obsidian_by_haunting",
       "metadata": {
         "files": [
-          "src/main/resources/data/create_netherless/recipes/crimson_nyllium_by_manual_application.json"
+          "src/main/resources/data/create_netherless/recipes/crying_obsidian_by_haunting.json"
+        ]
+      }
+    },
+    {
+      "name": "NetherWartFromDeploying",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nether_wart_from_deploying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipes/nether_wart_from_deploying.json"
+        ]
+      }
+    },
+    {
+      "name": "IncompleteNetheriteUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incomplete_netherite_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/dariuszebaguette/netherless/item/IncompleteNetheriteUpgradeSmithingTemplateItem.java",
+          "src/main/resources/assets/create_netherless/models/item/incomplete_netherite_upgrade_smithing_template.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteUpgradeSmithingTemplateSequencedAssembly",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_upgrade_smithing_template_sequenced_assembly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipes/netherite_upgrade_smithing_template_sequenced_assembly.json"
+        ]
+      }
+    },
+    {
+      "name": "GhastTearFromSpouting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ghast_tear_from_spouting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/create_netherless/recipes/ghast_tear_from_spouting.json"
         ]
       }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:forge:rods/coal": [
+      "CUSTOM:CoalRod"
+    ],
+    "ITEMS:forge:rods": [
+      "CUSTOM:CoalRod"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.create_netherless.incomplete_blaze_rod": "Incomplete Blaze Rod",
       "item_group.create_netherless.create_netherless_tab": "Create: Netherless",
       "item.create_netherless.coal_rod": "Coal Rod",
-      "item.create_netherless.ectoplasm.description_0": "§7Not implemented yet",
       "itemGroup.tabcreate_netherless_tab": "Create: Netherless",
       "item.create_netherless.ectoplasm": "Ectoplasm",
+      "item.create_netherless.incomplete_netherite_upgrade_smithing_template": "Incomplete Smithing Template",
       "item.create_netherless.netherite_fragment": "Netherite Fragment"
     }
   },
@@ -430,7 +366,10 @@
     ],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "create",
+      "jei"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Made with love (and a small bit of MCreator)",
     "modElementsPackage": "fr.dariuszebaguette.netherless"

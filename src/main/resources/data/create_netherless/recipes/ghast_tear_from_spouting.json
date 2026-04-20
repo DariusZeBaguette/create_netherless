@@ -1,0 +1,21 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "amount": 250,
+      "fluid": "create:potion",
+      "nbt": {
+        "Bottle": "REGULAR",
+        "Potion": "minecraft:healing"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ]
+}
